@@ -2,10 +2,19 @@
 
 ## Installation
 
-- Python 3.6
-- Pyspark ML
-- Matplotlib
-- Jupyter Notebooks
+Libaries used in this project are as follows:
+- pandas
+- matplotlib.pyplot
+- seaborn
+- datetime
+- pyspark.sql -  SparkSession, Window
+- pyspark.sql - functions
+- pyspark.sql.functions - udf, countDistinct, split, count, when, sum as ssum, col, last, lit, concat, avg, desc
+- pyspark.ml - feature - StringIndexer, VectorAssembler, StandardScaler
+- pyspark.ml - classification - LogisticRegression, RandomForestClassifier
+- pyspark.ml - Pipeline
+- pyspark.ml - evaluation - MulticlassClassificationEvaluator
+- pyspark.ml - tuning - CrossValidator, ParamGridBuilder
 
 ## Project Overview
 Sparkify is a music streaming platform data-set provided by Udacity in the data science for enterprise Nanodegree program. Within this platform, the users have the option to subscribe to the service as either a paid user, or a free user (including advertisements). As part if this project I have used this data-set to explore, identify and predict customer churn (when a customer cancels their subscription) based on particular features derived from the data. I have approached this 
